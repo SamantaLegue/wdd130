@@ -1,42 +1,43 @@
-/* Navigation */
+:root {
+    --primary-color: #333333;
+    --secondary-color: #eeeeee;
+}
+
 nav {
-    background-color: #333333;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: #ffffff;
     padding: 10px;
     display: block;
 }
 
-/* Main content */
 main {
     max-width: 840px;
     margin: 0 auto;
 }
 
 h1 {
-    color: #333333;
+    color: var(--primary-color);
 }
 
-/* Main image */
 main img {
     width: 200px;
     height: auto;
-    border: 2px solid #333333;
+    border: 2px solid var(--primary-color);
     padding: 5px;
     box-shadow: 0 0 10px #777777;
 }
 
-/* Aside section */
 aside {
     width: 300px;
     margin: 20px auto;
-    border: 1px solid #333333;
+    border: 1px solid var(--primary-color);
     padding: 15px;
-    background-color: #eeeeee;
-    color: #333333;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 aside img {
@@ -44,14 +45,12 @@ aside img {
     height: auto;
 }
 
-/* Paragraphs */
 p {
     padding: 0;
 }
 
-/* Footer */
 footer {
     margin-top: 20px;
-    border-top: 1px solid #333333;
+    border-top: 1px solid var(--primary-color);
     text-align: center;
 }
