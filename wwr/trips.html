@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafting the Best | Contact Us</title>
+    <title>Rafting Trips | Rafting the Best</title>
     <meta name="description"
-      content="Contact Rafting the Best for river adventure reservations, questions, and trip information.">
+      content="Compare Rafting the Best whitewater trips, from relaxing family floats to full-day canyon runs and multi-day expeditions. See difficulty, duration, pricing, and included equipment.">
     <meta name="author" content="Samanta Ndetio Legue">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -21,92 +21,130 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+                <li><a href="trips.html" aria-current="page">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="contact-main">
-        <section class="contact-intro" aria-labelledby="contact-title">
-            <h1 id="contact-title">Contact Us</h1>
-            <p>We would love to help you plan your next river adventure.</p>
+    <main class="trips-main">
+        <section class="trips-intro" aria-labelledby="trips-title">
+            <h1 id="trips-title">Our Rafting Trips</h1>
+            <p>Every trip is led by experienced guides and includes all the safety gear you need.
+                Pick the adventure that matches your group and your appetite for adrenaline.</p>
         </section>
 
-        <section class="contact-information" aria-labelledby="company-information-title">
-            <div class="company-details">
-                <h2 id="company-information-title">Rafting the Best</h2>
-                <address>
-                    123 River Road<br>
-                    Adventure Valley, UT 84532<br>
-                    United States
-                </address>
-                <p><strong>Phone:</strong> <a href="tel:+18005557238">+1 (800) 555-RAFT</a></p>
-                <p><strong>Email:</strong> <a
-                      href="mailto:info@raftingthebest.example">info@raftingthebest.example</a></p>
-            </div>
+        <section class="trip-details" aria-labelledby="trip-details-title">
+            <h2 id="trip-details-title">Trip Details</h2>
+            <div class="trip-grid">
+                <article class="trip-card">
+                    <figure>
+                        <img src="images/trip-family-float.jpg"
+                          alt="A family smiling in a raft on calm water with green hills behind them"
+                          width="600" height="400" loading="lazy">
+                        <figcaption>Calm water and scenic views on the Family Float.</figcaption>
+                    </figure>
+                    <h3>Family Float</h3>
+                    <p>A relaxed half-day trip on gentle water with small rapids, perfect for
+                        first-time
+                        rafters and children. Your guide shares local wildlife and river history
+                        along the
+                        way, and there is time for a swim stop.</p>
+                </article>
 
-            <div class="map-container">
-                <h2>Find Us</h2>
-                <iframe src="https://www.google.com/maps?q=Moab%2C%20Utah&z=12&output=embed"
-                  title="Map showing the Rafting the Best service area in Moab, Utah" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <article class="trip-card">
+                    <figure>
+                        <img src="images/trip-canyon-classic.jpg"
+                          alt="A raft of paddlers dropping through a large rapid in a rocky canyon"
+                          width="600" height="400" loading="lazy">
+                        <figcaption>Big waves in the heart of the canyon.</figcaption>
+                    </figure>
+                    <h3>Canyon Classic</h3>
+                    <p>Our most popular full-day adventure. Paddle through exciting Class III and IV
+                        rapids, enjoy a riverside lunch, and learn paddle commands that keep your
+                        crew
+                        working together as a team.</p>
+                </article>
+
+                <article class="trip-card">
+                    <figure>
+                        <img src="images/trip-expedition.jpg"
+                          alt="Tents and a campfire on a sandy riverbank at sunset" width="600"
+                          height="400" loading="lazy">
+                        <figcaption>Evenings by the campfire on the multi-day expedition.
+                        </figcaption>
+                    </figure>
+                    <h3>Three-Day Expedition</h3>
+                    <p>Spend three days and two nights on the river, running Class III to V rapids
+                        by
+                        day and camping on quiet riverbanks at night. Meals, camp gear, and guides
+                        are
+                        all included.</p>
+                </article>
             </div>
         </section>
 
-        <section class="team" aria-labelledby="team-title">
-            <h2 id="team-title">Meet Our Team</h2>
-            <div class="team-grid">
-                <figure>
-                    <img src="images/employee1.jpg" alt="Alex Morgan, lead rafting guide">
-                    <figcaption><strong>Alex Morgan</strong><br>Lead Rafting Guide</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee2.jpg" alt="Jordan Lee, reservations coordinator">
-                    <figcaption><strong>Jordan Lee</strong><br>Reservations Coordinator</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee3.jpg" alt="Riley Taylor, safety manager">
-                    <figcaption><strong>Riley Taylor</strong><br>Safety Manager</figcaption>
-                </figure>
+        <section class="trip-summary" aria-labelledby="summary-title">
+            <h2 id="summary-title">Trip Summary</h2>
+            <div class="table-wrapper">
+                <table>
+                    <caption>Comparison of Rafting the Best trips</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Trip</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Rapids</th>
+                            <th scope="col">Minimum Age</th>
+                            <th scope="col">Price per Person</th>
+                            <th scope="col">Meals Included</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Family Float</th>
+                            <td>Half day (3 hours)</td>
+                            <td>Class I&ndash;II</td>
+                            <td>5</td>
+                            <td>$55</td>
+                            <td>Snack</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Canyon Classic</th>
+                            <td>Full day (6 hours)</td>
+                            <td>Class III&ndash;IV</td>
+                            <td>12</td>
+                            <td>$110</td>
+                            <td>Lunch</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Three-Day Expedition</th>
+                            <td>3 days, 2 nights</td>
+                            <td>Class III&ndash;V</td>
+                            <td>16</td>
+                            <td>$495</td>
+                            <td>All meals</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
-        <section class="contact-form-section" aria-labelledby="form-title">
-            <h2 id="form-title">Send Us a Message</h2>
-            <form class="contact-form" action="#" method="post">
-                <div class="form-field">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" autocomplete="name" required>
-                </div>
+        <section class="equipment" aria-labelledby="equipment-title">
+            <h2 id="equipment-title">Equipment We Provide</h2>
+            <ul>
+                <li>Self-bailing rafts, maintained and inspected daily</li>
+                <li>Coast Guard approved life jackets in all sizes</li>
+                <li>Helmets and paddles</li>
+                <li>Wetsuits and splash jackets for cooler days</li>
+                <li>Dry bags for your phone, keys, and a change of clothes</li>
+            </ul>
+        </section>
 
-                <div class="form-field">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" autocomplete="email" required>
-                </div>
-
-                <fieldset>
-                    <legend>What is the purpose of your message?</legend>
-                    <label><input type="radio" name="purpose" value="general-inquiry" required>
-                        General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation-question">
-                        Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="website-suggestion"> Website
-                        Suggestion</label>
-                </fieldset>
-
-                <div class="form-field">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="6" required></textarea>
-                </div>
-
-                <label class="checkbox-label" for="newsletter">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    Please subscribe me to the monthly newsletter
-                </label>
-
-                <button type="submit">Send Message</button>
-            </form>
+        <section class="cta trips-cta" aria-labelledby="trips-cta-title">
+            <h2 id="trips-cta-title">Ready to Hit the Water?</h2>
+            <p>Questions about a trip or ready to reserve your spot? Get in touch and we will help
+                you plan.</p>
+            <a class="cta-button" href="contact.html">Contact Us to Book</a>
         </section>
     </main>
 
