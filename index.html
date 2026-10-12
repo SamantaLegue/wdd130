@@ -5,52 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Samanta Ndetio Legue | WDD 130</title>
+    <title>Wasatch Whitewater Rafting | Home</title>
     <meta name="description"
-      content="Samanta Ndetio Legue's WDD 130 home page about HTML, CSS, and Cameroon.">
+      content="Wasatch Whitewater Rafting offers guided, safe and thrilling whitewater rafting trips for individuals, families and groups.">
     <meta name="author" content="Samanta Ndetio Legue">
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <img src="images/basic-logo.png" alt="Basic logo" width="128" height="128">
+        <a href="index.html" class="logo">
+            <img src="images/rafting-logo.jpg" alt="Wasatch Whitewater Rafting logo" width="64"
+              height="64">
+            <span>Wasatch Whitewater Rafting</span>
+        </a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="wwr/">Rafting Website</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Samanta Ndetio Legue | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Samanta Ndetio Legue portrait" width="150">
-        <p>My name is Samanta Ndetio Legue, and I am learning web design and development in WDD 130.
-            I enjoy creating simple, clean, and user-friendly websites while improving my HTML and
-            CSS skills step by step.</p>
-        <section>
-            <h2>Course Information</h2>
-            <p>This page contains information about my country and my journey in learning web
-                development.</p>
+        <section class="hero">
+            <img src="images/rafting-image"
+              alt="A group of rafters paddling through white water rapids" width="1600"
+              height="700">
+            <h1>Feel the Rush of the River</h1>
         </section>
 
+        <section class="intro">
+            <h2>Guided whitewater adventures for everyone</h2>
+            <p>We organize safe, unforgettable rafting trips for individuals, families and groups.
+                We provide the
+                rafts, life jackets, helmets and experienced guides, so all you need to bring is
+                your sense of
+                adventure.</p>
+        </section>
+
+        <section class="features">
+            <article class="feature feature-large">
+                <img src="images/rapids.jpg" alt="Raft crashing through a rapid" width="600"
+                  height="400">
+                <div>
+                    <h3>Thrilling Rapids</h3>
+                    <p>From gentle floats to heart-pounding Class IV rapids, we have a river for
+                        every skill level
+                        and every appetite for excitement.</p>
+                </div>
+            </article>
+
+            <article class="feature">
+                <img src="images/guides.jpg" alt="Rafting guide giving a safety briefing"
+                  width="400" height="300">
+                <div>
+                    <h3>Expert Guides</h3>
+                    <p>Our certified guides know every bend of the river and put your safety first
+                        on every trip.</p>
+                </div>
+            </article>
+
+            <article class="feature">
+                <img src="images/gear.jpg" alt="Life jackets and helmets lined up on the riverbank"
+                  width="400" height="300">
+                <div>
+                    <h3>All Gear Included</h3>
+                    <p>Rafts, paddles, life jackets and helmets are all provided, ready for you at
+                        the river.</p>
+                </div>
+            </article>
+
+            <aside class="cta">
+                <h3>Ready to hit the water?</h3>
+                <p>Explore our trips, compare rapids and equipment, and find the adventure that fits
+                    you.</p>
+                <a href="trips.html" class="button">Explore Our Trips</a>
+            </aside>
+
+            <section class="newsletter">
+                <h3>Join Our Newsletter</h3>
+                <p>Get river conditions, special offers and trip news in your inbox.</p>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name"
+                          required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com"
+                          required>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </section>
+        </section>
     </main>
 
-    <aside>
-        <h2>Cameroon</h2>
-        <img src="images/cameroon.jpg" alt="Cameroon landscape" width="200">
-        <p>
-            Cameroon is a bilingual country in Central Africa. It is divided
-            into ten regions, including eight French-speaking regions and two
-            English-speaking regions. Cameroon has a pleasant climate and is
-            known for its welcoming people.
-        </p>
-    </aside>
-
     <footer>
-        <p>&copy; 2026 Samanta Ndetio Legue &#10070; Douala, Cameroon</p>
+        <p>&copy; 2026 Wasatch Whitewater Rafting &#10070; Samanta Ndetio Legue</p>
+        <p><a href="contact.html">Contact Us</a></p>
     </footer>
 </body>
 

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting the Best | Contact Us</title>
+    <meta name="description"
+      content="Contact Rafting the Best for river adventure reservations, questions, and trip information.">
+    <meta name="author" content="Samanta Ndetio Legue">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Rafting the Best home">
+            <img src="images/rafting-logo.jpg" alt="Rafting the Best logo">
+        </a>
+
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <section class="contact-intro" aria-labelledby="contact-title">
+            <h1 id="contact-title">Contact Us</h1>
+            <p>We would love to help you plan your next river adventure.</p>
+        </section>
+
+        <section class="contact-information" aria-labelledby="company-information-title">
+            <div class="company-details">
+                <h2 id="company-information-title">Rafting the Best</h2>
+                <address>
+                    123 River Road<br>
+                    Adventure Valley, UT 84532<br>
+                    United States
+                </address>
+                <p><strong>Phone:</strong> <a href="tel:+18005557238">+1 (800) 555-RAFT</a></p>
+                <p><strong>Email:</strong> <a
+                      href="mailto:info@raftingthebest.example">info@raftingthebest.example</a></p>
+            </div>
+
+            <div class="map-container">
+                <h2>Find Us</h2>
+                <iframe src="https://www.google.com/maps?q=Moab%2C%20Utah&z=12&output=embed"
+                  title="Map showing the Rafting the Best service area in Moab, Utah" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="team" aria-labelledby="team-title">
+            <h2 id="team-title">Meet Our Team</h2>
+            <div class="team-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Alex Morgan, lead rafting guide">
+                    <figcaption><strong>Alex Morgan</strong><br>Lead Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Jordan Lee, reservations coordinator">
+                    <figcaption><strong>Jordan Lee</strong><br>Reservations Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Riley Taylor, safety manager">
+                    <figcaption><strong>Riley Taylor</strong><br>Safety Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form-section" aria-labelledby="form-title">
+            <h2 id="form-title">Send Us a Message</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-field">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>What is the purpose of your message?</legend>
+                    <label><input type="radio" name="purpose" value="general-inquiry" required>
+                        General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation-question">
+                        Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website-suggestion"> Website
+                        Suggestion</label>
+                </fieldset>
+
+                <div class="form-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <label class="checkbox-label" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Rafting the Best | Samanta Ndetio Legue</p>
+        <nav class="socialmedia" aria-label="Social media links">
+            <a href="https://facebook.com" aria-label="Facebook"><span>f</span></a>
+            <a href="https://linkedin.com" aria-label="LinkedIn"><span>in</span></a>
+            <a href="https://instagram.com" aria-label="Instagram"><span>◎</span></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

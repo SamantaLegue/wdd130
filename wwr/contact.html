@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafting the Best | Contact Us</title>
+    <title>Contact Us | Rafting the Best</title>
     <meta name="description"
-      content="Contact Rafting the Best for river adventure reservations, questions, and trip information.">
+      content="Contact Rafting the Best by phone, email, or online form to ask about river rafting reservations, trips, and guided adventures. Find our address and meet our team.">
     <meta name="author" content="Samanta Ndetio Legue">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -42,15 +42,18 @@
                     United States
                 </address>
                 <p><strong>Phone:</strong> <a href="tel:+18005557238">+1 (800) 555-RAFT</a></p>
+                <p><strong>Reservations:</strong> <a href="tel:+18005557239">+1 (800) 555-7239</a>
+                </p>
                 <p><strong>Email:</strong> <a
                       href="mailto:info@raftingthebest.example">info@raftingthebest.example</a></p>
             </div>
 
             <div class="map-container">
                 <h2>Find Us</h2>
-                <iframe src="https://www.google.com/maps?q=Moab%2C%20Utah&z=12&output=embed"
-                  title="Map showing the Rafting the Best service area in Moab, Utah" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                  src="https://www.google.com/maps?q=123%20River%20Road%2C%20Adventure%20Valley%2C%20UT%2084532&z=13&output=embed"
+                  title="Map showing the location of Rafting the Best" width="400" height="250"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 
@@ -58,15 +61,18 @@
             <h2 id="team-title">Meet Our Team</h2>
             <div class="team-grid">
                 <figure>
-                    <img src="images/employee1.jpg" alt="Alex Morgan, lead rafting guide">
+                    <img src="images/employee1.jpg" alt="Portrait of Alex Morgan" width="200"
+                      height="200">
                     <figcaption><strong>Alex Morgan</strong><br>Lead Rafting Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee2.jpg" alt="Jordan Lee, reservations coordinator">
+                    <img src="images/employee2.jpg" alt="Portrait of Jordan Lee" width="200"
+                      height="200">
                     <figcaption><strong>Jordan Lee</strong><br>Reservations Coordinator</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee3.jpg" alt="Riley Taylor, safety manager">
+                    <img src="images/employee3.jpg" alt="Portrait of Riley Taylor" width="200"
+                      height="200">
                     <figcaption><strong>Riley Taylor</strong><br>Safety Manager</figcaption>
                 </figure>
             </div>
@@ -85,14 +91,23 @@
                     <input type="email" id="email" name="email" autocomplete="email" required>
                 </div>
 
-                <fieldset>
-                    <legend>What is the purpose of your message?</legend>
-                    <label><input type="radio" name="purpose" value="general-inquiry" required>
-                        General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation-question">
-                        Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="website-suggestion"> Website
-                        Suggestion</label>
+                <fieldset class="purpose-options">
+                    <legend>Purpose of your message</legend>
+                    <div>
+                        <input type="radio" id="purpose-general" name="purpose"
+                          value="general-inquiry" required>
+                        <label for="purpose-general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="purpose-reservation" name="purpose"
+                          value="reservation-question">
+                        <label for="purpose-reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="purpose-website" name="purpose"
+                          value="website-suggestion">
+                        <label for="purpose-website">Website Suggestion</label>
+                    </div>
                 </fieldset>
 
                 <div class="form-field">
@@ -100,12 +115,12 @@
                     <textarea id="message" name="message" rows="6" required></textarea>
                 </div>
 
-                <label class="checkbox-label" for="newsletter">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    Please subscribe me to the monthly newsletter
-                </label>
+                <div class="checkbox-label">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit" class="submit-button">Send Message</button>
             </form>
         </section>
     </main>
